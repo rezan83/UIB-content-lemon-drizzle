@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "jest": "^26.6.3",
+    "puppeteer": "^15.4.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-content-lemon-drizzle",
+    "id": 315256552
+  }
+}
